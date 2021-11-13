@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+  background: #141414;
+}
+
+.intro {
+  text-align: left;
+}
+
+.intro-welcome {
+  font-size: 50px;
+  color: yellow;
+  margin: 50px 0 0 50px;
+}
+
+.intro-p {
+  margin: 50px 0 0 50px;
+  max-width: 600px;
+  color: white;
+  font-size: 40px;
+}
+
+.name {
+  color: yellow;
+}
+
+.contact {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+
+}
+.contact:hover {
+    margin-left: 5px;
+    padding-left: 0px;
+    color:black;
+	  background-color: yellow;
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.in-touch {
+  margin: 50px 0 0 50px;
+  font-size: 35px;
+  color: white;
+}
+
+.about {
+  text-align: left;
+  display: flex;
+  margin: 30px auto;
+  max-width: 750px;
+}
+
+.about-title {
+  color: yellow;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.about-content {
+  color: white;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+.icons-container {
+  margin-left: 100px;
+}
+.skills-icons {
+  height:100px;
+  width: 100px;
+  display: grid;
+  margin-bottom: 120px;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  grid-column-gap: 25px;
+  grid-row-gap: 50px;
+}
+
+.icon-hover {
+  transition: transform 250ms, opacity 400ms;
+}
+
+.icon-hover:hover {
+  transform: scale(1.25);
+  opacity: 1;
+  background: gray;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 500px) {
+  .skills-icons {
+      float: left;
+      margin-left:10px;
+      width: 40%;
+      /*grid-column-gap: 15px;
+      grid-row-gap: 30px;*/
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-flow: row;
+      margin-bottom: 350px;
+  }
+
+  .icon-hover:nth-child(3) {
+      clear: left;
+  }
+  .icon{
+    width:100%!important;
+    height:100%!important;
+  }
+
+  .project {
+    color: white;
+    margin-left: 30px;
+    margin-top: 21px;
+    font-size: 20px;
+  }
+}
+
+.project {
+  color: white;
+  margin-left: 30px;
+  margin-top: 21px;
+  font-size: 20px;
+}
+.project-name {
+  font-weight: bold;
+}
+
+.project-name:hover {
+    margin-left: 5px;
+    color:black;
+	  background-color: yellow;
+    cursor: pointer;
+    border-radius: 3px;
+    max-width: 200px;
+
+}
+
+.project-used-item {
+  display: inline-block;
+  margin: 3px 10px 3px 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: white;
+  border: 1.5px solid yellow;
+  background: 0 0;
+}
