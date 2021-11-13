@@ -6,7 +6,7 @@ const CustomProject = ({ name, link, desc, usedArray}) => {
             <div className="project-name">
                 <a
                     href={link}
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     ><span>{name}</span></a>
                     </div>
                 <p className="project-description">{desc}</p>
