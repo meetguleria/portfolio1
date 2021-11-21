@@ -164,6 +164,17 @@ a {
     margin-top: 21px;
     font-size: 20px;
   }
+  .intro-welcome {
+    font-size: 45px;
+  }
+
+  .intro-p {
+    font-size: 35px;
+  }
+
+  .in-touch {
+    font-size: 30px;
+  }
 }
 
 .project {
@@ -197,4 +208,47 @@ a {
   color: white;
   border: 1.5px solid yellow;
   background: 0 0;
+}
+
+.footer {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.creator {
+  color: yellow;
+}
+
+.footer-text  {
+  display: inline-block;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 15px 0 0;
+  font-weight: bold;
+}
+
+.footer-text :after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: yellow;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.footer-text :hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.footer-text:hover {
+  color: yellow;
 }

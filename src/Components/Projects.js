@@ -16,6 +16,16 @@ const Projects = () => {
                         "JavaScript",
                     ]}
                 />
+                <CustomProject
+                    name="Popcorn Flicks"
+                    link="https://github.com/meetg94/popcorn-flicks"
+                    desc="Find the recent trending movies and get know all about your favorite movies."
+                    usedArray={[
+                        "JavaScript",
+                        "React",
+                        "TMDb API",
+                    ]}
+                />
             </div>
         </div>
     )

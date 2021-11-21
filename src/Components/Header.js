@@ -5,7 +5,8 @@ const Header = () => {
         <header className="intro">
             <h1 className="intro-welcome">Welcome<span className="emoji">👋</span></h1>
                 <div class="intro">
-                    <h2 className="intro-p">I am <span className="name">Meet Guleria</span>, a web developer based in Vancouver, Canada.
+                    <h2 className="intro-p">I am <span className="name">Meet Guleria</span>,
+                    a web developer based in Vancouver, Canada.
                     I love developing beautiful web applications and interfaces.
                     </h2>
 
