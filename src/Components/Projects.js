@@ -9,7 +9,7 @@ const Projects = () => {
                 <CustomProject
                     name="Counter App"
                     link="https://github.com/meetg94/counter-app"
-                    desc="A web app to help you increment or decrment. Reset the number back to 0 when needed."
+                    desc="A web app to help you keep count by incrementing or decrementing."
                     usedArray={[
                         "HTML",
                         "CSS",
@@ -19,7 +19,7 @@ const Projects = () => {
                 <CustomProject
                     name="Popcorn Flicks"
                     link="https://github.com/meetg94/popcorn-flicks"
-                    desc="Find the recent trending movies and get know all about your favorite movies."
+                    desc="Grab Popcorn and find the most trending flicks to watch this weekend."
                     usedArray={[
                         "JavaScript",
                         "React",
