@@ -7,23 +7,28 @@ const Projects = () => {
             <div className="about-title">PROJECTS</div>
             <div className="projects-content">
                 <CustomProject
-                    name="Counter App"
-                    link="https://github.com/meetg94/counter-app"
-                    desc="A web app to help you keep count by incrementing or decrementing."
+                    name="Coin Hippo"
+                    link="https://github.com/meetg94/crypto-graph"
+                    desc="A web application to track cryptocurrency prices and other KPIs using React. 
+                    Leveraged Axios and Coingecko API to retrieve pricing data for the most popular cryptocurrencies. 
+                    Enhanced user experience by creating user friendly UI using Material UI."
                     usedArray={[
-                        "HTML",
-                        "CSS",
+                        "Chart.js",
+                        "React",
+                        "Coingecko API",
                         "JavaScript",
+                        "Material UI"
                     ]}
                 />
                 <CustomProject
-                    name="Popcorn Flicks"
-                    link="https://github.com/meetg94/popcorn-flicks"
-                    desc="Grab Popcorn and find the most trending flicks to watch this weekend."
+                    name="Quiz App"
+                    link="https://github.com/meetg94/quiz-api"
+                    desc="An interactive quiz application to test knowledge on various topics."
                     usedArray={[
                         "JavaScript",
                         "React",
-                        "TMDb API",
+                        "openTDB API",
+                        "Material UI"
                     ]}
                 />
             </div>
