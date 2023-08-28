@@ -13,7 +13,6 @@ function App() {
         <Skills />
         <Projects />
         <Footer />
-        <Analytics />
     </div>
   );
 }
