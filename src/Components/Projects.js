@@ -1,7 +1,21 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
 import CustomProject from './CustomHooks/CustomProject';
 
+import axios from 'axios';
+
 const Projects = () => {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        axios.get('/api/getProjects')
+            .then(response => {
+                setProjects(response.data);
+            })
+            .catch(error => {
+                console.error("Error fetching projects:", error);
+            });
+    }, []);
+    
     return (
         <div className="about">
             <div className="about-title">PROJECTS</div>
